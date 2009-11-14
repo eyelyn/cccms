@@ -46,14 +46,22 @@ a:hover {
 
 /*------------------headlines-------------------*/
 
+h1 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 15px;  
+}
+
 h2 {
   font-size: 15px;
   line-height: 20px;
   font-family: Helvetica;
+  color: #616161;
 }
 
 div#center_column h2 a {
-  color: #535353;
+  color: #616161;
   text-decoration: none;
 }
 
@@ -79,6 +87,8 @@ h3 {
 h4 {
   font-size: 11px;
   text-decoration: bold;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 /*------------------main-navigation-------------------*/
